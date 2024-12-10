@@ -2,7 +2,7 @@
     "title": "Quizz 1",
     "questions": [
         {
-            "question": "What is the capital of France?",
+            "title": "What is the capital of France?",
             "answers": [
                 {"answer": "Paris", "correct": true},
                 {"answer": "London", "correct": false},
@@ -11,7 +11,7 @@
             ]
         },
         {
-            "question": "What is the capital of Germany?",
+            "title": "What is the capital of Germany?",
             "answers": [
                 {"answer": "Paris", "correct": false},
                 {"answer": "London", "correct": false},
