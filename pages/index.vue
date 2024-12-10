@@ -8,7 +8,7 @@ definePageMeta({
 <div>
     <NuxtLayout name="navbar">
         <div>
-            Ceci est une page d'accueil, vous pouvez voir la liste des quizzs dans la page "quizzs"
+            Pour accéder au projet, allez a la page /quizzs ("Quizzs" dans la barre de navigation)
         </div>
     </NuxtLayout>
 </div>
