@@ -1,15 +1,24 @@
 <script setup>
     const quizzs = await queryContent("quizzs").find();
+
+    definePageMeta({
+        layout: false,
+    })
+
 </script>
 
 <template>
 <div>
-    <Header></Header>
-    <div v-for="quizz in quizzs" :key="quizz.slug">
-        <NuxtLink :key="quizz._path" :to="`/quizzs/${quizz._path.split('/').pop()}`" class="text-blue-500 hover:text-blue-700 hover:underline">
-            {{ quizz.title }}
-        </NuxtLink>
-    </div>
+    <NuxtLayout name="navbar">
+        <div class="w-full flex flex-col items-center justify-center">
+            <div  class="flex w-3/5 flex-wrap gap-10 justify-between">
+                <QuizzCard v-for="quizz in quizzs" :key="quizz.slug" :quizz="quizz">
+                </QuizzCard>
+            </div>
+        </div>
+    </NuxtLayout>
+
 </div>
+
 
 </template>

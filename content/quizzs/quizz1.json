@@ -1,5 +1,5 @@
 {
-    "title": "Quizz 1",
+    "title": "Capitales",
     "questions": [
         {
             "title": "What is the capital of France?",
@@ -13,10 +13,37 @@
         {
             "title": "What is the capital of Germany?",
             "answers": [
-                {"answer": "Paris", "correct": false},
+                {"answer": "Prague", "correct": false},
                 {"answer": "London", "correct": false},
                 {"answer": "Berlin", "correct": true},
                 {"answer": "Madrid", "correct": false}
+            ]
+        },
+        {
+            "title": "What is the capital of Spain?",
+            "answers": [
+                {"answer": "Lisbon", "correct": false},
+                {"answer": "Rome", "correct": false},
+                {"answer": "London", "correct": false},
+                {"answer": "Madrid", "correct": true}
+            ]
+        },
+        {
+            "title": "What is the capital of Italy?",
+            "answers": [
+                {"answer": "Paris", "correct": false},
+                {"answer": "London", "correct": false},
+                {"answer": "Rome", "correct": true},
+                {"answer": "Prague", "correct": false}
+            ]
+        },
+        {
+            "title": "What is the capital of Portugal?",
+            "answers": [
+                {"answer": "Paris", "correct": false},
+                {"answer": "Lisbon", "correct": true},
+                {"answer": "Berlin", "correct": false},
+                {"answer": "Amsterdam", "correct": false}
             ]
         }
     ]

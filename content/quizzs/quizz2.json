@@ -1,22 +1,49 @@
 {
-    "title": "Quizz 2",
+    "title": "Calcul mental",
     "questions": [
         {
-            "question": "1 What is the capital of France?",
+            "title": "What is 2+2",
             "answers": [
-                {"answer": "Paris", "correct": true},
-                {"answer": "London", "correct": false},
-                {"answer": "Berlin", "correct": false},
-                {"answer": "Madrid", "correct": false}
+                {"answer": "4", "correct": true},
+                {"answer": "5", "correct": false},
+                {"answer": "2", "correct": false},
+                {"answer": "3", "correct": false}
             ]
         },
         {
-            "question": "2 What is the capital of Germany?",
+            "title": "What is 12 * 125 ?",
             "answers": [
-                {"answer": "Paris", "correct": false},
-                {"answer": "London", "correct": false},
-                {"answer": "Berlin", "correct": true},
-                {"answer": "Madrid", "correct": false}
+                {"answer": "750", "correct": false},
+                {"answer": "1300", "correct": false},
+                {"answer": "1500", "correct": true},
+                {"answer": "1700", "correct": false}
+            ]
+        },
+        {
+            "title": "What is 12 / 3 ?",
+            "answers": [
+                {"answer": "4", "correct": true},
+                {"answer": "5", "correct": false},
+                {"answer": "2", "correct": false},
+                {"answer": "3", "correct": false}
+            ]
+        },
+        {
+            "title": "What is 8% of 25 ?",
+            "answers": [
+                {"answer": "2", "correct": true},
+                {"answer": "4", "correct": false},
+                {"answer": "1.75", "correct": false},
+                {"answer": "3", "correct": false}
+            ]
+        },
+        {
+            "title": "What is 17 * 29 ?",
+            "answers": [
+                {"answer": "463", "correct": false},
+                {"answer": "444", "correct": false},
+                {"answer": "507", "correct": false},
+                {"answer": "493", "correct": true}
             ]
         }
     ]
