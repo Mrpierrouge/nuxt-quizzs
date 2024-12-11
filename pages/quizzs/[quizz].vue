@@ -5,6 +5,7 @@
     const restart = () => {
         quizz.values.score = 0;
         quizz.values.step = 1;
+        quizz.values.date = Date.now();
     }
     quizz.values.date = Date.now();
 </script>

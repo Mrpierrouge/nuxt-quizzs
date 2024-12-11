@@ -3,15 +3,15 @@ export default function useQuizz() {
     const values = reactive({
         step: 1,
         score: 0,
-        data: Date.now(),
+        date: Date.now(),
         MAX_TIME: 50
     })
     const answer = (bool) => {
         if (bool) {
-            values.score++
             const elapsedTime = (Date.now() - values.date ) / 100
+            console.log(elapsedTime)
             for (let i = 0; i < values.MAX_TIME; i++) {
-                if (elapsedTime < i) {
+                if (elapsedTime - 10 < i) {
                     values.score++
                 }
             }
