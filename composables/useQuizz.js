@@ -10,9 +10,13 @@ export default function useQuizz() {
         if (bool) {
             const elapsedTime = (Date.now() - values.date ) / 100
             console.log(elapsedTime)
-            for (let i = 0; i < values.MAX_TIME; i++) {
-                if (elapsedTime - 10 < i) {
-                    values.score++
+            if (elapsedTime > values.MAX_TIME) {
+                values.score+=10
+            } else {
+                for (let i = 0; i < values.MAX_TIME; i++) {
+                    if (elapsedTime - 10 < i) {
+                        values.score++
+                    } 
                 }
             }
         }
