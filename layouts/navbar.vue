@@ -8,7 +8,9 @@
         <li>
           <NuxtLink to="/quizzs">Quizzs</NuxtLink>
         </li>
-
+        <li>
+          <NuxtLink to="/history">Historique</NuxtLink>
+        </li>
       </ul>
     </div>
   <slot />

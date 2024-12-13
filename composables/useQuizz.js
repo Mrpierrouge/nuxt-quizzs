@@ -1,5 +1,5 @@
-export default function useQuizz() {
-
+export default function useQuizz(quizz) {
+    const history = inject('history')
     const values = reactive({
         step: 1,
         score: 0,
@@ -22,9 +22,23 @@ export default function useQuizz() {
         }
         values.step++
         values.date = Date.now()
+        if (values.step > quizz.questions.length) {
+            end();
+        }
+        return
+    }
+    const end = () => {
+        history.addHistory(quizz, values.score)
+        return
+    }
+    const restart = () => {
+        quizz.values.score = 0;
+        quizz.values.step = 1;
+        quizz.values.date = Date.now();
     }
     return {
         values,
-        answer
+        answer,
+        restart
     }
 }

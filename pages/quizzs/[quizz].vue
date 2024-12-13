@@ -1,12 +1,7 @@
 <script setup>
     const { params } = useRoute();
     const quizzData = await queryContent(`quizzs/${params.quizz}`).findOne();
-    const quizz = useQuizz();
-    const restart = () => {
-        quizz.values.score = 0;
-        quizz.values.step = 1;
-        quizz.values.date = Date.now();
-    }
+    const quizz = useQuizz(quizzData);
     quizz.values.date = Date.now();
 </script>
 <template>
@@ -24,8 +19,9 @@
             </div>
             <div v-else class="flex flex-col gap-5 justify-center items-center">
                 <h2>End of the quizz, Your score is :  {{ quizz.values.score }}/{{ quizzData.questions.length * quizz.values.MAX_TIME }}</h2>
-                <button @click="restart">Restart</button>
+                <button @click="quizz.restart">Restart</button>
                 <NuxtLink to="/quizzs">Other Quizzs</NuxtLink>
+                <NuxtLink to="/history">View history</NuxtLink>
             </div>
         </div>
     </NuxtLayout>
