@@ -5,6 +5,5 @@ export default {
     extend: {},
   },
   plugins: [],
-  safelist: ['animate-[tada_1s]']
 }
 
