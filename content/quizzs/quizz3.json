@@ -4,19 +4,19 @@
         {
             "title": "What is the capital of France?",
             "answers": [
-                {"answer": "Paris", "correct": true},
-                {"answer": "London", "correct": false},
-                {"answer": "Berlin", "correct": false},
-                {"answer": "Madrid", "correct": false}
+                {"answer": "Paris", "isCorrect": true},
+                {"answer": "London", "isCorrect": false},
+                {"answer": "Berlin", "isCorrect": false},
+                {"answer": "Madrid", "isCorrect": false}
             ]
         },
         {
             "title": "What is the capital of Germany?",
             "answers": [
-                {"answer": "Paris", "correct": false},
-                {"answer": "London", "correct": false},
-                {"answer": "Berlin", "correct": true},
-                {"answer": "Madrid", "correct": false}
+                {"answer": "Paris", "isCorrect": false},
+                {"answer": "London", "isCorrect": false},
+                {"answer": "Berlin", "isCorrect": true},
+                {"answer": "Madrid", "isCorrect": false}
             ]
         }
     ]

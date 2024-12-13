@@ -4,46 +4,46 @@
         {
             "title": "What is the capital of France?",
             "answers": [
-                {"answer": "Paris", "correct": true},
-                {"answer": "London", "correct": false},
-                {"answer": "Berlin", "correct": false},
-                {"answer": "Madrid", "correct": false}
+                {"answer": "Paris", "isCorrect": true},
+                {"answer": "London", "isCorrect": false},
+                {"answer": "Berlin", "isCorrect": false},
+                {"answer": "Madrid", "isCorrect": false}
             ]
         },
         {
             "title": "What is the capital of Germany?",
             "answers": [
-                {"answer": "Prague", "correct": false},
-                {"answer": "London", "correct": false},
-                {"answer": "Berlin", "correct": true},
-                {"answer": "Madrid", "correct": false}
+                {"answer": "Prague", "isCorrect": false},
+                {"answer": "London", "isCorrect": false},
+                {"answer": "Berlin", "isCorrect": true},
+                {"answer": "Madrid", "isCorrect": false}
             ]
         },
         {
             "title": "What is the capital of Spain?",
             "answers": [
-                {"answer": "Lisbon", "correct": false},
-                {"answer": "Rome", "correct": false},
-                {"answer": "London", "correct": false},
-                {"answer": "Madrid", "correct": true}
+                {"answer": "Lisbon", "isCorrect": false},
+                {"answer": "Rome", "isCorrect": false},
+                {"answer": "London", "isCorrect": false},
+                {"answer": "Madrid", "isCorrect": true}
             ]
         },
         {
             "title": "What is the capital of Italy?",
             "answers": [
-                {"answer": "Paris", "correct": false},
-                {"answer": "London", "correct": false},
-                {"answer": "Rome", "correct": true},
-                {"answer": "Prague", "correct": false}
+                {"answer": "Paris", "isCorrect": false},
+                {"answer": "London", "isCorrect": false},
+                {"answer": "Rome", "isCorrect": true},
+                {"answer": "Prague", "isCorrect": false}
             ]
         },
         {
             "title": "What is the capital of Portugal?",
             "answers": [
-                {"answer": "Paris", "correct": false},
-                {"answer": "Lisbon", "correct": true},
-                {"answer": "Berlin", "correct": false},
-                {"answer": "Amsterdam", "correct": false}
+                {"answer": "Paris", "isCorrect": false},
+                {"answer": "Lisbon", "isCorrect": true},
+                {"answer": "Berlin", "isCorrect": false},
+                {"answer": "Amsterdam", "isCorrect": false}
             ]
         }
     ]

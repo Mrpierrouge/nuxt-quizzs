@@ -4,46 +4,46 @@
         {
             "title": "What is 2+2",
             "answers": [
-                {"answer": "4", "correct": true},
-                {"answer": "5", "correct": false},
-                {"answer": "2", "correct": false},
-                {"answer": "3", "correct": false}
+                {"answer": "4", "isCorrect": true},
+                {"answer": "5", "isCorrect": false},
+                {"answer": "2", "isCorrect": false},
+                {"answer": "3", "isCorrect": false}
             ]
         },
         {
             "title": "What is 12 * 125 ?",
             "answers": [
-                {"answer": "750", "correct": false},
-                {"answer": "1300", "correct": false},
-                {"answer": "1500", "correct": true},
-                {"answer": "1700", "correct": false}
+                {"answer": "750", "isCorrect": false},
+                {"answer": "1300", "isCorrect": false},
+                {"answer": "1500", "isCorrect": true},
+                {"answer": "1700", "isCorrect": false}
             ]
         },
         {
             "title": "What is 12 / 3 ?",
             "answers": [
-                {"answer": "4", "correct": true},
-                {"answer": "5", "correct": false},
-                {"answer": "2", "correct": false},
-                {"answer": "3", "correct": false}
+                {"answer": "4", "isCorrect": true},
+                {"answer": "5", "isCorrect": false},
+                {"answer": "2", "isCorrect": false},
+                {"answer": "3", "isCorrect": false}
             ]
         },
         {
             "title": "What is 8% of 25 ?",
             "answers": [
-                {"answer": "2", "correct": true},
-                {"answer": "4", "correct": false},
-                {"answer": "1.75", "correct": false},
-                {"answer": "3", "correct": false}
+                {"answer": "2", "isCorrect": true},
+                {"answer": "4", "isCorrect": false},
+                {"answer": "1.75", "isCorrect": false},
+                {"answer": "3", "isCorrect": false}
             ]
         },
         {
             "title": "What is 17 * 29 ?",
             "answers": [
-                {"answer": "463", "correct": false},
-                {"answer": "444", "correct": false},
-                {"answer": "507", "correct": false},
-                {"answer": "493", "correct": true}
+                {"answer": "463", "isCorrect": false},
+                {"answer": "444", "isCorrect": false},
+                {"answer": "507", "isCorrect": false},
+                {"answer": "493", "isCorrect": true}
             ]
         }
     ]
