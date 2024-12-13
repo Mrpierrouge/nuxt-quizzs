@@ -1,9 +1,3 @@
-<script setup>
-definePageMeta({
-    layout: false,
-})
-</script>
-
 <template>
 <div>
     <NuxtLayout name="navbar">

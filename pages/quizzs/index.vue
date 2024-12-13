@@ -1,10 +1,5 @@
 <script setup>
     const quizzs = await queryContent("quizzs").find();
-
-    definePageMeta({
-        layout: false,
-    })
-
 </script>
 
 <template>
