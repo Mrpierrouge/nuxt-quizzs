@@ -1,3 +1,14 @@
+# Contexte
+
+Ceci est un projet effectué dans le cadre de mes études, il a pour but de me faire découvrir et manipuler les bases de Nuxt.js.
+Il a également été déployer via VERCEL [ici](https://nuxt-quizzs.vercel.app/)
+
+# Projet
+
+Ce projet compte une page quizzs avec différents fonctionnels
+Pour chaque quizz vous obtenez un score dépendant de votre temps de réponse a chaque question.
+Vous pouvez alors voir vos résultats précédents dans une page historique
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
