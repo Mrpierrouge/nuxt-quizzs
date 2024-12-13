@@ -14,7 +14,7 @@ export default function useQuizz(quizz) {
                 values.score+=10
             } else {
                 for (let i = 0; i < values.MAX_TIME; i++) {
-                    if (elapsedTime - 10 < i) {
+                    if (elapsedTime - 20 < i) {
                         values.score++
                     } 
                 }
@@ -32,9 +32,9 @@ export default function useQuizz(quizz) {
         return
     }
     const restart = () => {
-        quizz.values.score = 0;
-        quizz.values.step = 1;
-        quizz.values.date = Date.now();
+        values.score = 0;
+        values.step = 1;
+        values.date = Date.now();
     }
     return {
         values,

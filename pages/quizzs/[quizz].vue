@@ -2,6 +2,7 @@
     const { params } = useRoute();
     const quizzData = await queryContent(`quizzs/${params.quizz}`).findOne();
     const quizz = useQuizz(quizzData);
+    provide('quizz', quizz);
     quizz.values.date = Date.now();
 </script>
 <template>
@@ -14,7 +15,7 @@
                 <h2>Current score : {{ quizz.values.score }}</h2>
                 <h2 class="mt-10 mb-5">{{ quizzData.questions[quizz.values.step - 1].title }}</h2>
                 <div class="flex w-3/5 flex-wrap gap-10 justify-between">
-                    <AnswerCard v-for="answer in quizzData.questions[quizz.values.step - 1].answers" :key="answer.slug" :answer="answer" @click="quizz.answer(answer.correct)"></AnswerCard>
+                    <AnswerCard v-for="answer in quizzData.questions[quizz.values.step - 1].answers" :key="answer.slug" :answer="answer"></AnswerCard>
                 </div>
             </div>
             <div v-else class="flex flex-col gap-5 justify-center items-center">
